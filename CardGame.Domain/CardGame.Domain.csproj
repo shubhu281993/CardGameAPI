@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CardGame.Common\CardGame.Common.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\CardGame.Common.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame", "CardGame\CardGame.csproj", "{2AE611BF-6CBF-4ADF-B8BF-D3FE2A0F88CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Common", "ClassLibrary1\CardGame.Common.csproj", "{01C37656-6BBE-49BA-852E-BF31DB808710}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Common", "CardGame.Common\CardGame.Common.csproj", "{01C37656-6BBE-49BA-852E-BF31DB808710}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Domain", "ClassLibrary2\CardGame.Domain.csproj", "{5C2507DF-90F2-4195-BFD7-85DA77673009}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Domain", "CardGame.Domain\CardGame.Domain.csproj", "{5C2507DF-90F2-4195-BFD7-85DA77673009}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

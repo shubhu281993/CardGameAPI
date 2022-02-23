@@ -1,6 +1,5 @@
 ﻿using CardGame.Business.Interface;
 using CardGame.Common;
-using ClassLibrary1;
 
 public class CardService : ICard
 {

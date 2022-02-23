@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary2\CardGame.Domain.csproj" />
+    <ProjectReference Include="..\CardGame.Domain\CardGame.Domain.csproj" />
   </ItemGroup>
 
 </Project>
