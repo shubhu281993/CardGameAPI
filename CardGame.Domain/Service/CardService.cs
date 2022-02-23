@@ -41,6 +41,11 @@ public class CardService : ICard
                 var x = CardsMapping.DiamondCards.Where(x => x.Key == card).Select(x => x).FirstOrDefault();
                 diamondCards.Add(x.Key, x.Value);
             }
+            if (CardsMapping.SpadeCards.ContainsKey(card))
+            {
+                var x = CardsMapping.SpadeCards.Where(x => x.Key == card).Select(x => x).FirstOrDefault();
+                spadeCards.Add(x.Key, x.Value);
+            }
             if (CardsMapping.ClubCards.ContainsKey(card))
             {
                 var x = CardsMapping.ClubCards.Where(x => x.Key == card).Select(x => x).FirstOrDefault();
@@ -51,11 +56,7 @@ public class CardService : ICard
                 var x = CardsMapping.HeartCards.Where(x => x.Key == card).Select(x => x).FirstOrDefault();
                 heartCards.Add(x.Key, x.Value);
             }
-            if (CardsMapping.SpadeCards.ContainsKey(card))
-            {
-                var x = CardsMapping.SpadeCards.Where(x => x.Key == card).Select(x => x).FirstOrDefault();
-                spadeCards.Add(x.Key, x.Value);
-            }
+            
         }
 
         specialCards= specialCards.OrderBy(z => z.Value).ToDictionary(y=>y.Key,y=>y.Value);
